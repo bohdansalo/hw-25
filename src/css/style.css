@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 370px;
+}
+.cards:nth-child(1) {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cards:nth-child(2) {
+  background-color: purple;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+.cards:nth-child(3) {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
